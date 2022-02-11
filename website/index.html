@@ -1,0 +1,71 @@
+<!-- Reference : https://medium.com/@andrew_barnes/bem-and-sass-a-perfect-match-5e48d9bc3894 -->
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ＷＥＢサイト</title>
+
+    <!-- Normal Styling & BEM Styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BEM + SASS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Normal (No BEM) -->
+    <nav class="nav1">
+        <ul>
+            <li>
+                <a href="">ホーム</a>
+            </li>
+            <li>
+                <a href="">概要</a>
+            </li>
+            <li>
+                <a class="active" href="">サポート</a>
+            </li>
+            <li>
+                <a href="">お問い合わせ</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- BEM Naming -->
+    <nav class="nav2">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a class="nav__link" href="">ホーム</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="">概要</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link nav__link--active" href="">サポート</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="">お問い合わせ</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- BEM + SASS -->
+    <nav class="nav3">
+        <ul class="nav3__list">
+            <li class="nav3__item">
+                <a class="nav3__link" href="">ホーム</a>
+            </li>
+            <li class="nav3__item">
+                <a class="nav3__link" href="">概要</a>
+            </li>
+            <li class="nav3__item">
+                <a class="nav3__link nav3__link--active" href="">サポート</a>
+            </li>
+            <li class="nav3__item">
+                <a class="nav3__link" href="">お問い合わせ</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

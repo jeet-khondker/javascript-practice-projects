@@ -1,0 +1,60 @@
+/* Common */
+* {
+  margin: 0;
+}
+
+/* ******************************* */
+/*    NO BEM Naming Methodology    */
+/* ******************************* */
+.nav1 {
+  background-color: #000;
+}
+
+.nav1 ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav1 ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.nav1 ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav1 ul li .active {
+  background-color: #008000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* ******************************* */
+/*      BEM Naming Methodology     */
+/* ******************************* */
+.nav2 {
+  background-color: #ccc;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav__item {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.nav__item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav__link--active {
+  background-color: #ffa500;
+  padding: 10px;
+  border-radius: 20px;
+}

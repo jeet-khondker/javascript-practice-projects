@@ -1,0 +1,30 @@
+.nav3 {
+  // Nav Block
+  background-color: #000;
+
+  &__list {
+    // List Element within Block
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__item {
+    // Item Element within Block
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  &__link {
+    // Link Element within Block
+    color: #ffff00;
+    text-decoration: none;
+
+    &--active {
+      // Modifier
+      background-color: #05eeff;
+      color: #000;
+      padding: 10px;
+      border-radius: 20px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.nav3 {
+  background-color: #000;
+}
+
+.nav3__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav3__item {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.nav3__link {
+  color: #ffff00;
+  text-decoration: none;
+}
+
+.nav3__link--active {
+  background-color: #05eeff;
+  color: #000;
+  padding: 10px;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=main.css.map */
