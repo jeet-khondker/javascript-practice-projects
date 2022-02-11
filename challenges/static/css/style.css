@@ -1,0 +1,87 @@
+/* Common */
+body {
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.container-1, .container-2, .container-3, .container-4, .container-5 {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.flexbox-container-1, .flexbox-container-2, .flexbox-rps, .flexbox-pick-color {
+    display: flex;
+    border: 1px solid #f3f1f1;
+    padding: 10px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(2rem);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flexbox-container-1 div {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+#flexbox-result {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container2-btn {
+    padding: 10px;
+}
+
+.flexbox-container-2 img {
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flexbox-rps img:hover {
+    box-shadow: 0 10px 50px rgba(37, 50, 233, 1);
+}
+
+.flex-blackjack-row-1 {
+    display: flex;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(46,142,24,1) 50%, rgba(0,0,0,1) 100%);
+    backdrop-filter: blur(2rem);
+    color: #fff;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+.flex-blackjack-row-1 div {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+}
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 {
+    display: flex;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(46,142,24,1) 50%, rgba(0,0,0,1) 100%);
+    backdrop-filter: blur(2rem);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
